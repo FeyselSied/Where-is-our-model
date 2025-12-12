@@ -6,6 +6,9 @@ const dialog = document.querySelector('.dialog-message');
 console.log(dialog);
 
 button.addEventListener('click', function () {
-    console.log('clicked');
-    dialog.style.visibility = 'visible';
+    if (dialog.classList.contains('hide'))
+        dialog.classList.remove('hide');
+    else
+        dialog.classList.add('hide');
+    // dialog.style.visibility = 'visible';
 });
