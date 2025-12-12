@@ -6,6 +6,8 @@ const dialog = document.querySelector('.dialog-message');
 console.log(dialog);
 
 button.addEventListener('click', function () {
+    button.style.backgroundColor = 'transparent';
+
     if (dialog.classList.contains('hide')) {
         dialog.classList.remove('hide');
         dialog.style.transform = 'translateY(50vh)';
