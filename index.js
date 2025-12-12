@@ -5,6 +5,9 @@ console.log(button);
 const dialog = document.querySelector('.dialog-message');
 console.log(dialog);
 
+const dialogButton = document.querySelector('.dialog-btn');
+console.log(dialogButton);
+
 button.addEventListener('click', function () {
     button.style.backgroundColor = 'transparent';
 
@@ -17,3 +20,7 @@ button.addEventListener('click', function () {
     else 
         dialog.classList.add('hide');
 });
+
+dialogButton.addEventListener('click', function() {
+    dialog.classList.add('hide');
+})
