@@ -24,3 +24,14 @@ body {
     background-color: transparent;
 }
 
+.btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+div {
+    background-color: aqua;
+    height: 100vh;
+}
+/*  */
