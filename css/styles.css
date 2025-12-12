@@ -39,6 +39,9 @@ body {
     font-size: 1.5rem;
     box-sizing: border-box;
     width: fit-content;
+    box-shadow: 0 0 10px;
+    border-radius: 3px;
+
 
 }
 
@@ -62,9 +65,12 @@ body {
     position: absolute;
     left: 50%;
     top: 0%;
-
 }
 
+.dialog-btn {
+    border: 0;
+    background-color: white;
+}
 .hide {
     visibility: hidden;
 }
